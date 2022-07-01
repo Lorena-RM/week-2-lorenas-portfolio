@@ -1,3 +1,72 @@
 body{
-    background-color: burlywood;
+    background-color: palegoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* START HEADER CSS */
+.about{
+    color: white;
+    text-decoration:none;
+}
+
+header {
+    padding: 15px;
+    background-color: #06630f;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 75px;
+}
+
+header nav {
+    padding-top: 15px;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    color: white;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+/* END HEADER CSS------------------------- */
+
+img{
+    display: block;
+    width: 100%;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.verticle-line{
+    margin-top: 40px;
+    margin-left: 175px;
+    padding: 20px;
+    padding-block-end: 70px;
+    border-right: 5px solid #06630f;
+    font-size: 75px;
+    text-align: end;
+    width: 275px;
+    
+}
+
+section p{
+    margin: auto;
+    padding: 15px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #06630f;
+    position: static;
+    width: 900px;
 }
