@@ -51,8 +51,6 @@ section{
     display:flex;
     flex-direction: row;
     color: #06630f;
-    
-
 }
 
 .verticle-line{
@@ -60,9 +58,11 @@ section{
     margin-left: 75px;
     padding: 20px;
     border-right: 5px solid #06630f;
-    font-size: 70px;
+    font-size: 75px;
     width: 25%;
     text-align: end;
+    color: #06630f;
+    position: relative;
 }
 
 section p{
@@ -74,24 +74,45 @@ section p{
     width: 60%;
 }
 
+.verticle-line-2{
+    margin-left: 252px;
+    border-right: 5px solid #06630f;
+    font-size: 575%;
+    width: 25%;
+    color: #06630f;
+    position: relative;
+}
+
 #main-section-image{
     margin: 70px 50px;
     width: 60%;
-    border: 5px solid #0a9218
+    border: 7px solid #0a9218
 }
 
-#smaller-section-image img{
-    width: 10%;
-    
+.small-section{
+    width: 40%;
+    margin: 10px;
+    justify-items: center;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 
 
 /*------------- FOOTER SECTION-------------------*/
+footer ul{
+    display: flex;
+    justify-content: center;
+}
 footer ul li{
     display: inline-flex;
     padding: 10px;
+    margin: 80px 0;
 }
 
 
