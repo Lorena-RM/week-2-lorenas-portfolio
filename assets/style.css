@@ -3,7 +3,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* START HEADER CSS */
+/* ----------START HEADER CSS ----------------------*/
 .about{
     color: white;
     text-decoration:none;
@@ -35,7 +35,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 35px;
 }
-/* END HEADER CSS------------------------- */
+/*------------- END HEADER CSS------------------------- */
 
 
 /* ---------HEADERIMAGE---------- */
@@ -44,9 +44,10 @@ img{
     background-size: cover;
     background-position: center;
 }
-/* ---------HEADERIMAGE---------- */
+/* ---------HEADERIMAGE END---------- */
 
 
+/* main section and 4 other smaller sections underneath */
 section{
     display:flex;
     flex-direction: row;
@@ -74,24 +75,22 @@ section p{
     width: 60%;
 }
 
-.verticle-line-2{
-    margin-left: 252px;
-    border-right: 5px solid #06630f;
-    font-size: 575%;
-    width: 25%;
-    color: #06630f;
-    position: relative;
-}
-
 #main-section-image{
     margin: 70px 50px;
     width: 60%;
     border: 7px solid #0a9218
 }
 
+#verticle-line-2{
+    margin-left: 255px;
+    border-right: 5px solid #06630f;
+    width: 25%;
+}
+
 .small-section{
     width: 40%;
     margin: 10px;
+    border: 7px solid #0a9218;
     justify-items: center;
 }
 
