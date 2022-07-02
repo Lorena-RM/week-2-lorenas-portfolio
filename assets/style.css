@@ -21,15 +21,14 @@ header h1 {
 }
 
 header nav {
-    padding-top: 15px;
-    float: right;
+    padding-top: 20px;
     font-size: 35px;
     font-weight: bold;
+    float: right;
 }
 
 header nav ul {
     list-style-type: none;
-    color: white;
 }
 
 header nav ul li {
@@ -38,27 +37,32 @@ header nav ul li {
 }
 /* END HEADER CSS------------------------- */
 
+
+/* ---------HEADERIMAGE---------- */
 img{
-    display: block;
     width: 100%;
+    background-size: cover;
+    background-position: center;
 }
+/* ---------HEADERIMAGE---------- */
+
 
 section{
     display:flex;
     flex-direction: row;
+    color: #06630f;
+    
 
 }
 
 .verticle-line{
     margin-top: 40px;
-    margin-left: 175px;
+    margin-left: 75px;
     padding: 20px;
-    padding-block-end: 70px;
     border-right: 5px solid #06630f;
-    font-size: 75px;
+    font-size: 70px;
+    width: 25%;
     text-align: end;
-    width: 275px;
-    
 }
 
 section p{
@@ -67,6 +71,37 @@ section p{
     line-height: 1.5;
     font-size: 20px;
     color: #06630f;
-    position: static;
-    width: 900px;
+    width: 60%;
 }
+
+#main-section-image{
+    margin: 70px 50px;
+    width: 60%;
+    border: 5px solid #0a9218
+}
+
+#smaller-section-image img{
+    width: 10%;
+    
+}
+
+
+
+
+/*------------- FOOTER SECTION-------------------*/
+footer ul li{
+    display: inline-flex;
+    padding: 10px;
+}
+
+
+.contact{
+    color: #06630f;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 150%;
+    margin: 25px;
+}
+
+
+
