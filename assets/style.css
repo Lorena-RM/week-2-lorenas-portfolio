@@ -1,3 +1,8 @@
+:root{
+    --dark: #06630f;
+    --light: white;
+    --borderg: #06630f;
+}
 body{
     background-color: palegoldenrod;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9,10 +14,15 @@ body{
     text-decoration:none;
 }
 
+.about:hover{
+    color: palegoldenrod;
+    font-size: 40px;
+}
+
 header {
     padding: 15px;
-    background-color: #06630f;
-    color: white;
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 header h1 {
@@ -51,19 +61,25 @@ header nav ul li {
 section{
     display:flex;
     flex-direction: row;
-    color: #06630f;
+    color: var(--dark);
 }
 
 .verticle-line{
     margin-top: 20px;
     margin-left: 75px;
     padding: 20px;
-    border-right: 5px solid #06630f;
+    border-right: 5px solid var(--borderg);
     font-size: 75px;
     width: 25%;
     text-align: end;
-    color: #06630f;
+    color: var(--dark);
     position: relative;
+}
+
+#verticle-line-2{
+    margin-left: 255px;
+    border-right: 5px solid var(--borderg);
+    width: 25%;
 }
 
 #avatar{
@@ -77,27 +93,35 @@ section p{
     padding: 25px;
     line-height: 1.5;
     font-size: 20px;
-    color: #06630f;
+    color: var(--dark);
     width: 45%;
 }
 
 #main-section-image{
-    margin: 70px 50px;
-    width: 60%;
-    border: 7px solid #0a9218
+    width: 80%;
+    border: 7px solid var(--borderg);
+    opacity: 80%;
 }
 
-#verticle-line-2{
-    margin-left: 255px;
-    border-right: 5px solid #06630f;
-    width: 25%;
+#project-link{
+    display: flex;
+    justify-content:center;
+    margin: 20px 0;
+    width: 68%;
+}
+
+.small-section:hover,
+#main-section-image:hover{
+    opacity: 100%;
+    box-shadow: inset 0px 0px 40px var(--dark), 0 0 15px var(--dark);
 }
 
 .small-section{
     width: 40%;
     margin: 10px;
-    border: 7px solid #0a9218;
+    border: 7px solid var(--borderg);   
     justify-items: center;
+    opacity: 60%;
 }
 
 div{
@@ -122,11 +146,16 @@ footer ul li{
 
 
 .contact{
-    color: #06630f;
+    color: var(--dark);
     text-decoration:none;
     font-weight: bold;
     font-size: 150%;
     margin: 25px;
+}
+
+.contact:hover{
+    font-size: 35px;
+    color:  rgb(91, 187, 91);
 }
 
 
