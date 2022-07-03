@@ -2,9 +2,10 @@
     --dark: #06630f;
     --light: white;
     --borderg: #06630f;
+    --light2: palegoldenrod;
 }
 body{
-    background-color: palegoldenrod;
+    background-color: var(--light2);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -15,30 +16,30 @@ body{
 }
 
 .about:hover{
-    color: palegoldenrod;
+    color: var(--light2);
     font-size: 40px;
 }
 
 header {
-    padding: 15px;
+    padding:15px 25px 15px 0px;
     background-color: var(--dark);
     color: var(--light);
 }
 
 header h1 {
     display: inline-block;
-    font-size: 75px;
+    font-size: 65px;
+    background-color: var(--light2);
+    color: var(--dark);
+    padding:0px 5px 0px 50px;
+
 }
 
 header nav {
     padding-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     float: right;
-}
-
-header nav ul {
-    list-style-type: none;
 }
 
 header nav ul li {
@@ -157,6 +158,5 @@ footer ul li{
     font-size: 35px;
     color:  rgb(91, 187, 91);
 }
-
 
 
