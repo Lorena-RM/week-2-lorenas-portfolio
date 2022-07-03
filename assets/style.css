@@ -39,7 +39,7 @@ header nav ul li {
 
 
 /* ---------HEADERIMAGE---------- */
-img{
+#header-image{
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ section{
 }
 
 .verticle-line{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 75px;
     padding: 20px;
     border-right: 5px solid #06630f;
@@ -66,13 +66,19 @@ section{
     position: relative;
 }
 
+#avatar{
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
 section p{
     margin: auto;
-    padding: 15px;
+    padding: 25px;
     line-height: 1.5;
     font-size: 20px;
     color: #06630f;
-    width: 60%;
+    width: 45%;
 }
 
 #main-section-image{
