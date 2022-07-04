@@ -147,7 +147,7 @@ div{
     flex-wrap: wrap;
 }
 footer ul li{
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -208,5 +208,12 @@ footer ul li{
     #project-link{
         width: 100%;
     }
+}
+
+@media screen and (min-width: 867px) and (max-width: 1010px){
+    #verticle-line-2{
+         margin-left: 240px;
+    }
+   
 }
 
