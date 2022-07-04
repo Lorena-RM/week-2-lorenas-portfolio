@@ -146,7 +146,7 @@ div{
 #footer{
     display: flex;
     text-align: center;
-    margin-top: 90px;
+    margin: 60px;
     flex-wrap: wrap;
 }
 footer ul li{
